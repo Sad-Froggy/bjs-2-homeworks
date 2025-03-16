@@ -7,8 +7,8 @@ class PrintEditionItem {
       this.name = name;
       this.releaseDate = releaseDate;
       this.pagesCount = pagesCount;
-      this.state = 100; // Состояние по умолчанию
-      this.type = null; // Тип издания
+      this.state = 100;
+      this.type = null;
     }
 
     fix() {
