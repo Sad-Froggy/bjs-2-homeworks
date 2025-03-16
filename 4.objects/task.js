@@ -16,7 +16,7 @@ Student.prototype.addMarks = function (...marks) {
         console.log("Студент отчислен, добавление оценок невозможно.");
         return;
     }
-    this.marks.push(...marksToAdd);
+    this.marks.push(...marks);
 }
 
 Student.prototype.getAverage = function () {
